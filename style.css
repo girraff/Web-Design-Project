@@ -1,0 +1,105 @@
+@import url('https://fonts.googleapis.com/css2?family=Comforter&family=Roboto+Mono:wght@300&display=swap');
+
+body {
+	font-family: 'Roboto+Mono', sans-serif;
+	margin: 0;
+	background-color: silver;
+}
+nav ul {
+	background-color: blue;
+	list-style-type: none;
+	text-align: center;
+}
+nav li{
+	display: inline;
+}
+nav h1{
+	color: white;
+}
+nav a{
+	text-decoration: none;
+	padding-right: 10px;
+}
+nav a:link{
+	color: purple;
+}
+nav a:visited{
+	color: pink;
+}
+nav a:hover{
+	color: gray;
+}
+nav a:active{
+	color: black;
+}
+nav{
+	border-top: 2px solid darkblue;
+	border-bottom: 2px solid darkblue;
+	background-image: url(photos/green-sky.jpg);
+}
+main{
+	max-width: 1000px;
+	margin: 0 auto;
+	min-height: 500px;
+}
+h1{
+	text-align: center;
+}
+footer{
+	text-align: center;
+	border-top: 1px solid gray;
+	padding: 10px;
+}
+div .col-sm-1{
+	border: 2px solid black;
+}
+form{
+	float: left;
+	width: 8em;
+	padding-right: 1em;
+}
+label{
+	float: left;
+	width: 8em;
+	padding-right: 1em;
+}
+input, textarea{
+	margin-bottom: 1em;
+	display: block;
+}
+input[type=submit]{
+	display: block;
+	background-color: lightgray;
+}
+header{
+	background-color: rgb(215, 104, 209);
+}
+footer{
+	background-color: rgb(0, 0, 16);
+}
+footer p{
+	font-size: 30px;
+	font-weight: bold;
+	color: blue;
+}
+.embed-responsive-item{
+	max-width: 45%;
+	max-height: 45%;
+}
+.logo{
+	margin: 0 auto;
+	display: block;
+}
+@media only screen and (max-width: 1024px) {
+	h1{
+		font-size: 2em;
+	}
+}
+@media only screen and (max-width: 768px) {
+	h1{
+		font-size: 1.5em;
+	}
+}
+canvas{
+	background-image: url(photos/haunted_ballroom.png);
+}
